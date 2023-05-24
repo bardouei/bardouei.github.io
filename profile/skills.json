@@ -2,11 +2,11 @@
     "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
     "skills": [{
      
-            "title": "Languages",
-            "items" : [
+          "title": "Languages",
+          "items" : [
                 {
-                    "icon": "images/skills/swift.png",
-                    "title": "Swift"
+                   "icon": "images/skills/swift.png",
+                   "title": "Swift"
                 },
                 {
                     "icon": "images/skills/python.png",
@@ -14,28 +14,11 @@
                 }
         ]},
         {
-            "title": "Frameworks & Technologies",
-            "items" : [
-                {
-                    "icon": null,
-                    "title": "Android"
-                },
-                {
-                    "icon": null,
-                    "title": "React"
-                },
-                {
-                    "icon": null,
-                    "title": "Nodejs"
-                }
-            ]
-        },
-        {
-            "title" : "Tools & Platforms",
+            "title" : "Tools",
             "items": [
                 {
                     "icon": null,
-                    "title": "iOS Development"
+                    "title": "OS Development"
                 },
                 {
                     "icon": null,
@@ -47,15 +30,106 @@
                 },
                 {
                     "icon": null,
-                    "title": "CI/CD"
-                },
-                {
-                    "icon": null,
                     "title": "Instruments (XCode profiling tool)"
                 },
                 {
                     "icon": null,
+                    "title": "CI/CD"
+                },
+                {
+                    "icon": null,
                     "title": "Jira"
+                },
+                {
+                    "icon": null,
+                    "title": "MarkDown"
+                },
+                {
+                    "icon": null,
+                    "title": "Figma"
+                }
+            ]
+        },
+        {
+            "title": "Frameworks & Technologies",
+            "items" : [
+                {
+                    "icon": null,
+                    "title": "UIKit"
+                },
+                {
+                    "icon": null,
+                    "title": "RxSwift"
+                },
+                {
+                    "icon": null,
+                    "title": "CoreData"
+                },
+                {
+                    "icon": null,
+                    "title": "Auto Layout"
+                },
+                {
+                    "icon": null,
+                    "title": "Multi"
+                }
+            ]
+        },
+        {
+            "title": "Engineering",
+            "items" : [
+                {
+                    "icon": null,
+                    "title": "System Design"
+                },
+                {
+                    "icon": null,
+                    "title": "Clean Architecture"
+                },
+                {
+                    "icon": null,
+                    "title": "Test-driven development (TDD)"
+                },
+                {
+                    "icon": null,
+                    "title": "Behavioural driven developments(BDD)"
+                } 
+            ]
+        },
+        {
+            "title" : "Design Patterns",
+            "items": [
+                {
+                    "icon": null,
+                    "title": "VIPER"
+                },
+                {
+                    "icon": null,
+                    "title": "MVC"
+                },
+                {
+                    "icon": null,
+                    "title": "MVVM"
+                },
+                {
+                    "icon": null,
+                    "title": "Singleton"
+                },
+                {
+                    "icon": null,
+                    "title": "Factory"
+                },
+                {
+                    "icon": null,
+                    "title": "Repository"
+                },
+                {
+                    "icon": null,
+                    "title": "Builder"
+                },
+                {
+                    "icon": null,
+                    "title": "Decorator"
                 }
             ]
     }
