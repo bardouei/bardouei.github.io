@@ -1,9 +1,9 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
+            "image" : "images/projects/matnNama-poster.jpg",
             "title": "MatnNama",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "bodyText": "- Implemented Project.\n - SetUp FireBase. \n - Implemented With TDD\n - Analticts, FireBase, CI/CD",
             "links": [
                 {
                     "text": "SibApp",
@@ -20,9 +20,9 @@
             ]
         },
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
+            "image" : "images/projects/namava-poster.jpg",
             "title": "Namava",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "bodyText": "- Implemented Modular Player, Network, and Persistent with 10% Passed Test Coverage.\n -  Collabraioned in led research, development, and implementation of modular software system design with TDD, modular structure, and clean architecture. Successfully increased productivity by 10% and decreased project bugs by 20% by hiring a great colleague for the iOS team.\n Implemented CI/CD with Fastlane and GitLab Runner to improve the test process, which enhanced time efficiency by 10% in each sprint.",
             "links": [
                 {
                     "text": "SibApp",
@@ -34,13 +34,10 @@
                 }
             ],
             "tags" : [
-                "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
+                "Swift",
+                "RxSwift",
+                "POP",
+                "CI/CD"
             ]
         }
     ]
