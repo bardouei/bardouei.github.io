@@ -17,35 +17,35 @@
             "title" : "Tools",
             "items": [
                 {
-                    "icon": null,
-                    "title": "iOS Development -"
+                    "icon": "images/skills/ios.png",
+                    "title": "iOS Development"
+                },
+                {
+                    "icon": "images/skills/xcode.png",
+                    "title": "Xcode"
+                },
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "Git"
+                },
+                {
+                    "icon": "images/skills/profileing.png",
+                    "title": "XCode profiling tool"
+                },
+                {
+                    "icon": "images/skills/ci:cd.png",
+                    "title": "CI/CD"
+                },
+                {
+                    "icon": "images/skills/jira.png",
+                    "title": "Jira"
                 },
                 {
                     "icon": null,
-                    "title": "Swift -"
+                    "title": "MarkDown"
                 },
                 {
-                    "icon": null,
-                    "title": "Git -"
-                },
-                {
-                    "icon": null,
-                    "title": "Instruments (XCode profiling tool) -"
-                },
-                {
-                    "icon": null,
-                    "title": "CI/CD -"
-                },
-                {
-                    "icon": null,
-                    "title": "Jira -"
-                },
-                {
-                    "icon": null,
-                    "title": "MarkDown -"
-                },
-                {
-                    "icon": null,
+                    "icon": "images/skills/figma.png",
                     "title": "Figma"
                 }
             ]
@@ -54,15 +54,15 @@
             "title": "Frameworks & Technologies",
             "items" : [
                 {
-                    "icon": null,
+                    "icon": "images/skills/uiKit.png",
                     "title": "UIKit"
                 },
                 {
-                    "icon": null,
+                    "icon": "images/skills/rxSwift.png",
                     "title": "RxSwift"
                 },
                 {
-                    "icon": null,
+                    "icon": "images/skills/coreData.png",
                     "title": "CoreData"
                 },
                 {
@@ -70,8 +70,8 @@
                     "title": "Auto Layout"
                 },
                 {
-                    "icon": null,
-                    "title": "Multi"
+                    "icon": "images/skills/multithreading.png",
+                    "title": "Multi Threading"
                 }
             ]
         },
