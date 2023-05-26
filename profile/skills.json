@@ -26,11 +26,11 @@
                 },
                 {
                     "icon": "images/skills/git.png",
-                    "title": "Git"
+                    "title": " Git"
                 },
                 {
                     "icon": "images/skills/profileing.png",
-                    "title": "XCode profiling tool"
+                    "title": " XCode profiling tool"
                 },
                 {
                     "icon": "images/skills/ci:cd.png",
@@ -39,10 +39,6 @@
                 {
                     "icon": "images/skills/jira.png",
                     "title": "Jira"
-                },
-                {
-                    "icon": null,
-                    "title": "MarkDown"
                 },
                 {
                     "icon": "images/skills/figma.png",
@@ -66,7 +62,7 @@
                     "title": "CoreData"
                 },
                 {
-                    "icon": null,
+                    "icon": "images/skills/autoLayer.png",
                     "title": "Auto Layout"
                 },
                 {
