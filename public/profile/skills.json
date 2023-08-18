@@ -2,61 +2,130 @@
     "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
     "skills": [{
      
-            "title": "Languages & Databases",
-            "items" : [
-     
+          "title": "Languages",
+          "items" : [
                 {
-                    "icon": "images/skills/java.png",
-                    "title": "Java"
-                },
-                {
-                    "icon": "images/skills/php.png",
-                    "title": "PHP"
-                },
-                {
-                    "icon": "images/skills/js.png",
-                    "title": "JavaScript"
+                   "icon": "images/skills/swift.png",
+                   "title": "Swift"
                 },
                 {
                     "icon": "images/skills/python.png",
                     "title": "Python"
-                },
-                {
-                    "icon": "images/skills/mysql.png",
-                    "title": "MySQL"
                 }
         ]},
         {
-            "title": "Frameworks & Technologies",
-            "items" : [
+            "title" : "Tools",
+            "items": [
                 {
-                    "icon": "images/skills/android_new.png",
-                    "title": "Android"
+                    "icon": "images/skills/ios.png",
+                    "title": "iOS Development"
                 },
                 {
-                    "icon": "images/skills/react.png",
-                    "title": "React"
+                    "icon": "images/skills/xcode.png",
+                    "title": "Xcode"
                 },
                 {
-                    "icon": "images/skills/nodejs.png",
-                    "title": "Nodejs"
+                    "icon": "images/skills/git.png",
+                    "title": " Git"
+                },
+                {
+                    "icon": "images/skills/profileing.png",
+                    "title": " XCode profiling tool"
+                },
+                {
+                    "icon": "images/skills/ci:cd.png",
+                    "title": "CI/CD"
+                },
+                {
+                    "icon": "images/skills/jira.png",
+                    "title": "Jira"
+                },
+                {
+                    "icon": "images/skills/figma.png",
+                    "title": "Figma"
                 }
             ]
         },
         {
-            "title" : "Tools & Platforms",
+            "title": "Frameworks & Technologies",
+            "items" : [
+                {
+                    "icon": "images/skills/uiKit.png",
+                    "title": "UIKit"
+                },
+                {
+                    "icon": "images/skills/rxSwift.png",
+                    "title": "RxSwift"
+                },
+                {
+                    "icon": "images/skills/coreData.png",
+                    "title": "CoreData"
+                },
+                {
+                    "icon": "images/skills/autoLayer.png",
+                    "title": "Auto Layout"
+                },
+                {
+                    "icon": "images/skills/multithreading.png",
+                    "title": "Multi Threading"
+                }
+            ]
+        },
+        {
+            "title": "Engineering",
+            "items" : [
+                {
+                    "icon": null,
+                    "title": "System Design"
+                },
+                {
+                    "icon": null,
+                    "title": "Clean Architecture"
+                },
+                {
+                    "icon": null,
+                    "title": "Test-driven development (TDD)"
+                },
+                {
+                    "icon": null,
+                    "title": "Behavioural driven developments(BDD)"
+                } 
+            ]
+        },
+        {
+            "title" : "Design Patterns",
             "items": [
                 {
-                    "icon": "images/skills/android-studio.png",
-                    "title": "Android Studio"
+                    "icon": null,
+                    "title": "VIPER"
                 },
                 {
-                    "icon": "images/skills/git.png",
-                    "title": "Git"
+                    "icon": null,
+                    "title": "MVC"
                 },
                 {
-                    "icon": "images/skills/docker.png",
-                    "title": "Docker"
+                    "icon": null,
+                    "title": "MVVM"
+                },
+                {
+                    "icon": null,
+                    "title": "Singleton"
+                },
+                {
+                    "icon": null,
+                    "title": "Factory"
+                },
+                {
+                    "icon": null,
+                    "title": "Repository"
+                },
+                {
+                    "icon": null,
+                    "title": "Builder"
+                },
+                {
+                    "icon": null,
+                    "title": "Decorator"
                 }
             ]
     }
