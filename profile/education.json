@@ -4,10 +4,7 @@
             "title": "Jun 2018",
             "cardTitle": "B.Tech, Computer Science",
             "cardSubtitle":"Ooj University, Iran/Qazvin",
-            "cardDetailedText": "CGPA - 9.5",
-            "icon" : {
-                "src": "images/education/lorem-ipsum.png"
-            }
+            "cardDetailedText": "CGPA - 9.5"
         },
         {
             "title": "Apr 2012",
