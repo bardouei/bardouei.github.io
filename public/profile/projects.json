@@ -1,6 +1,25 @@
 {
     "projects" : [
         {
+            "image" : "images/projects/matnNama-poster.jpg",
+            "title": "MatnNama",
+            "bodyText": "- Implemented Project.\n - SetUp FireBase. \n - Implemented With TDD\n - Analticts, FireBase, CI/CD",
+            "links": [
+                {
+                    "text": "SibApp",
+                    "href": "https://sibapp.com/applications/MatnNama"
+                },
+                {
+                    "text": "Site",
+                    "href": "http://www.matnnama.ir"
+                }
+            ],
+            "tags" : [
+                "Swift",
+                "FireBase"
+            ]
+        },
+        {
             "image" : "images/projects/namava-poster.jpg",
             "title": "Namava",
             "bodyText": "- Implemented Modular Player, Network, and Persistent with 10% Passed Test Coverage.\n -  Collabraioned in led research, development, and implementation of modular software system design with TDD, modular structure, and clean architecture. Successfully increased productivity by 10% and decreased project bugs by 20% by hiring a great colleague for the iOS team.\n Implemented CI/CD with Fastlane and GitLab Runner to improve the test process, which enhanced time efficiency by 10% in each sprint.",
@@ -22,22 +41,20 @@
             ]
         },
         {
-            "image" : "images/projects/matnNama-poster.jpg",
-            "title": "MatnNama",
-            "bodyText": "- Implemented Project.\n - SetUp FireBase. \n - Implemented With TDD\n - Analticts, FireBase, CI/CD",
+            "image" : "images/projects/namava-poster.jpg",
+            "title": "i2tocr",
+            "bodyText": "- Implemented Project",
             "links": [
                 {
-                    "text": "SibApp",
-                    "href": "https://sibapp.com/applications/MatnNama"
-                },
-                {
-                    "text": "Site",
-                    "href": "http://www.matnnama.ir"
+                    "text": "App Store",
+                    "href": "https://sibapp.com/applications/namava?from=search"
                 }
             ],
             "tags" : [
                 "Swift",
-                "FireBase"
+                "RxSwift",
+                "POP",
+                "CI/CD"
             ]
         }
     ]

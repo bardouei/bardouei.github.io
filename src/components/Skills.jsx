@@ -52,12 +52,14 @@ function Skills(props) {
                   <h3>{rows.title}</h3>
                   {rows.items.map((item) => (
                     <div key={item.title} style={{ display: 'inline-block' }}>
-                      <img
-                        style={styles.iconStyle}
-                        src={item.icon}
-                        alt={item.title}
-                      />
-                      <p>{item.title}</p>
+                      {item.icon && (
+                        <img
+                          style={styles.iconStyle}
+                          src={item.icon}
+                          alt={item.title}
+                        />
+                      )}
+                      <p style={{ marginRight: '6px', marginLeft: '6px' }}>{item.title}</p>
                     </div>
                   ))}
                 </div>

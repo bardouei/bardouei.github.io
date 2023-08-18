@@ -1,7 +1,7 @@
 {
-  "name": "portfolio-app",
+  "name": "bardouei.github.io",
   "version": "0.1.0",
-  "homepage": "https://github.com/bardouei/bardouei.github.io.git"
+  "homepage": "https://bardouei.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -39,6 +39,8 @@
     ]
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
