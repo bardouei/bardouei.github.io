@@ -39,23 +39,6 @@
                 "POP",
                 "CI/CD"
             ]
-        },
-        {
-            "image" : "images/projects/namava-poster.jpg",
-            "title": "i2tocr",
-            "bodyText": "- Implemented Project",
-            "links": [
-                {
-                    "text": "App Store",
-                    "href": "https://sibapp.com/applications/namava?from=search"
-                }
-            ],
-            "tags" : [
-                "Swift",
-                "RxSwift",
-                "POP",
-                "CI/CD"
-            ]
         }
     ]
 }
