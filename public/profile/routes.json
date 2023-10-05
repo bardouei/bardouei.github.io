@@ -16,6 +16,11 @@
             "headerTitle": "Education"
         },
         {
+            "component": "Certificate",
+            "path": "/certificate",
+            "headerTitle": "Certificate"
+        },
+        {
             "component": "Experience",
             "path": "/experience",
             "headerTitle": "Experience"
