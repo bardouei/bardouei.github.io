@@ -6,7 +6,7 @@
             "media": {
                 "name": "dunkirk beach",
                 "source": {
-                  "url": "http://localhost:3000/images/Certificate/CertificateiOS16.png"
+                  "url": "images/Certificate/CertificateiOS16.png"
                 },
                 "type": "IMAGE"
               }
@@ -17,7 +17,7 @@
             "media": {
                 "name": "dunkirk beach",
                 "source": {
-                  "url": "http://localhost:3000/images/Certificate/CertificateSoftwareArchitecture.png"
+                  "url": "images/Certificate/CertificateSoftwareArchitecture.png"
                 },
                 "type": "IMAGE"
               }
