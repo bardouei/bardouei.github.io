@@ -11,19 +11,19 @@
             "headerTitle": "Skills"
         },
         {
-            "component": "Education",
-            "path": "/education",
-            "headerTitle": "Education"
+            "component": "Educations",
+            "path": "/educations",
+            "headerTitle": "Educations"
         },
         {
-            "component": "Certificate",
-            "path": "/certificate",
-            "headerTitle": "Certificate"
+            "component": "Certificates",
+            "path": "/certificates",
+            "headerTitle": "Certificates"
         },
         {
-            "component": "Experience",
-            "path": "/experience",
-            "headerTitle": "Experience"
+            "component": "Experiences",
+            "path": "/experiences",
+            "headerTitle": "Experiences"
         },
         {
             "component": "Projects",

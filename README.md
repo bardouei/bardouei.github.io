@@ -113,12 +113,16 @@ It has 2 keys, *logo* and *sections*.
             "href": "/skills"
         },
         {
-            "title": "Education",
-            "href": "/education"
+            "title": "Educations",
+            "href": "/Educations"
         },
         {
-            "title": "Experience",
-            "href": "/experience"
+            "title": "Certificates",
+            "href": "/certificates"
+        },
+        {
+            "title": "Experiences",
+            "href": "/experiences"
         },
         {
             "title": "Projects",
@@ -161,9 +165,9 @@ It has 2 keys, *logo* and *sections*.
             "headerTitle": "Skills"
         },
         {
-            "component": "Education",
-            "path": "/education",
-            "headerTitle": "Education"
+            "component": "Educations",
+            "path": "/Educations",
+            "headerTitle": "Educations"
         },
         {
             "component": "Experience",
@@ -305,20 +309,20 @@ It has 2 keys, *logo* and *sections*.
 
 - many pre existing skill logos are available inside `public/images/skills`.
 
-### (6) Education Section
+### (6) Educations Section
 
-- open `public/profile/education.json`
+- open `public/profile/Educations.json`
 
 ```
 {
-    "education":[
+    "Educations":[
         {
             "title": "Jun 20XX - Jun 20YY",
             "cardTitle": "B.Tech, Computer Science",
             "cardSubtitle":"XYZ University, City",
             "cardDetailedText": "CGPA - 9.5",
             "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+                "src": "images/Educations/lorem-ipsum.png"
             }
         },
         {
@@ -333,13 +337,13 @@ It has 2 keys, *logo* and *sections*.
 
 | key | Description |
 | ----------- | ----------- |
-| education | array containing education history of a person | 
-| education.title | date range during which this education was pursued or passing date |
-| education.cardTitle | degree or course name |
-| education.cardSubtitle | school or institute name |
-| education.cardDetailedText | extra info such as marks or cgpa |
-| education.icon | icon shown on the timeline. `optional` field|
-| education.icon.src | path to icon |
+| Educations | array containing Educations history of a person | 
+| Educations.title | date range during which this Educations was pursued or passing date |
+| Educations.cardTitle | degree or course name |
+| Educations.cardSubtitle | school or institute name |
+| Educations.cardDetailedText | extra info such as marks or cgpa |
+| Educations.icon | icon shown on the timeline. `optional` field|
+| Educations.icon.src | path to icon |
 
 ### (7) Experience Section
 

@@ -7,9 +7,9 @@ import { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
 import Header from './Header';
 import FallbackSpinner from './FallbackSpinner';
-import '../css/education.css';
+import '../css/certificate.css';
 
-function Education(props) {
+function Certificates(props) {
   const theme = useContext(ThemeContext);
   const { header } = props;
   const [data, setData] = useState(null);
@@ -17,7 +17,7 @@ function Education(props) {
   const [mode, setMode] = useState('VERTICAL_ALTERNATING');
 
   useEffect(() => {
-    fetch(endpoints.education, {
+    fetch(endpoints.certificates, {
       method: 'GET',
     })
       .then((res) => res.json())
@@ -38,7 +38,6 @@ function Education(props) {
       setWidth('50vw');
     }
   }, []);
-
   return (
     <>
       <Header title={header} />
@@ -50,7 +49,7 @@ function Education(props) {
                 hideControls
                 allowDynamicUpdate
                 useReadMore={false}
-                items={data.education}
+                items={data.certificates}
                 cardHeight={250}
                 mode={mode}
                 theme={{
@@ -62,11 +61,11 @@ function Education(props) {
                 }}
               >
                 <div className="chrono-icons">
-                  {data.education.map((education) => (education.icon ? (
+                  {data.certificates.map((certificates) => (certificates.icon ? (
                     <img
-                      key={education.icon.src}
-                      src={education.icon.src}
-                      alt={education.icon.alt}
+                      key={certificates.icon.src}
+                      src={certificates.icon.src}
+                      alt={certificates.icon.alt}
                     />
                   ) : null))}
                 </div>
@@ -79,8 +78,8 @@ function Education(props) {
   );
 }
 
-Education.propTypes = {
+Certificates.propTypes = {
   header: PropTypes.string.isRequired,
 };
 
-export default Education;
+export default Certificates;

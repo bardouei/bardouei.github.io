@@ -9,7 +9,7 @@ import Header from './Header';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/education.css';
 
-function Certificate(props) {
+function Educations(props) {
   const theme = useContext(ThemeContext);
   const { header } = props;
   const [data, setData] = useState(null);
@@ -17,7 +17,7 @@ function Certificate(props) {
   const [mode, setMode] = useState('VERTICAL_ALTERNATING');
 
   useEffect(() => {
-    fetch(endpoints.certificate, {
+    fetch(endpoints.educations, {
       method: 'GET',
     })
       .then((res) => res.json())
@@ -49,7 +49,7 @@ function Certificate(props) {
                 hideControls
                 allowDynamicUpdate
                 useReadMore={false}
-                items={data.certificate}
+                items={data.educations}
                 cardHeight={250}
                 mode={mode}
                 theme={{
@@ -61,11 +61,11 @@ function Certificate(props) {
                 }}
               >
                 <div className="chrono-icons">
-                  {data.certificate.map((certificate) => (certificate.icon ? (
+                  {data.educations.map((education) => (education.icon ? (
                     <img
-                      key={certificate.icon.src}
-                      src={certificate.icon.src}
-                      alt={certificate.icon.alt}
+                      key={education.icon.src}
+                      src={education.icon.src}
+                      alt={education.icon.alt}
                     />
                   ) : null))}
                 </div>
@@ -78,8 +78,8 @@ function Certificate(props) {
   );
 }
 
-Certificate.propTypes = {
+Educations.propTypes = {
   header: PropTypes.string.isRequired,
 };
 
-export default Certificate;
+export default Educations;

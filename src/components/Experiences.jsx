@@ -30,7 +30,7 @@ const styles = {
   },
 };
 
-function Experience(props) {
+function Experiences(props) {
   const theme = useContext(ThemeContext);
   const { header } = props;
   const [data, setData] = useState(null);
@@ -40,7 +40,7 @@ function Experience(props) {
       method: 'GET',
     })
       .then((res) => res.json())
-      .then((res) => setData(res.experiences))
+      .then((res) => setData(res.experience))
       .catch((err) => err);
   }, []);
 
@@ -105,8 +105,8 @@ function Experience(props) {
   );
 }
 
-Experience.propTypes = {
+Experiences.propTypes = {
   header: PropTypes.string.isRequired,
 };
 
-export default Experience;
+export default Experiences;

@@ -5,9 +5,9 @@ const endpoints = {
   social: 'profile/social.json',
   about: 'profile/about.json',
   skills: 'profile/skills.json',
-  education: 'profile/education.json',
-  certificate: 'profile/certificate.json',
-  experience: 'profile/experience.json',
+  educations: 'profile/educations.json',
+  certificates: 'profile/certificates.json',
+  experiences: 'profile/experiences.json',
   projects: 'profile/projects.json',
 };
 
