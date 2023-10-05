@@ -1,0 +1,42 @@
+{
+    "experience": [
+        {
+            "title": "iOS Engineer",
+            "subtitle": "Namava / Shatel",
+            "workType": "Full-time / Iran",
+            "workDescription": [
+                "Namava is the largest VOD platform in Iran, with over 6 million users.",
+                "Collabraioned in led research, development, and implementation of modular software system design with TDD, modular structure, and clean architecture. Successfully increased productivity by 10% and decreased project bugs by 20% by hiring a great colleague for the iOS team.",
+                "Implemented Modular Player, Network, and Persistent with 10% Passed Test Coverage.",
+                "Managed tasks with Jira according to each sprint and conducted technical meetings to accelerate the development process by 15%.",
+                "Implemented CI/CD with Fastlane and GitLab Runner to improve the test process, which enhanced time efficiency by 10% in each sprint.",
+                "Injected JavaScript into web view to enable UI updates for frequently changing features.",
+                "Applied VAST and VMAP for mid-roll advertisements in the player."
+            ],
+            "dateText": "07/2021 – Present"
+        },
+        {
+            "title": "iOS Developer",
+            "subtitle": "Tiva Soft",
+            "workType": "Full-time / Remote China",
+            "workDescription": [
+                "Tiva Soft is a company that works in the healthcare industry.",
+                "Applied Socket I/O to develop a messenger for doctors and patients. Utilized Jitsi to provide high-quality video and voice calls for doctor-patient communication.",
+                "Used Jitsi to provide video and voice calls to help improve the quality of doctor-patient communication.",
+                "Employed design patterns and architectures such as factory, singleton, and MVC."
+            ],
+            "dateText": "04/2020 – 07/2021"
+        },
+        {
+            "title": "Junior iOS Developer ",
+            "subtitle": "Iran University of Medical Scinces",
+            "workType": "Full-time / Iran",
+            "workDescription": [
+                "Learned Swift programming and iOS development while working at the Iran University of Medical Sciences.",
+                "Created and developed an application for doctor and patient care.",
+                "Developed a doctor and patient care application utilizing BLE (Bluetooth low energy) to connect a smart thermometer to a mobile device."
+            ],
+            "dateText": "08/2019 – 04/2020"
+        }
+    ]
+}

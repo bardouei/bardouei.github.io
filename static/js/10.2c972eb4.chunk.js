@@ -1,0 +1,2 @@
+(this["webpackJsonpbardouei.github.io"]=this["webpackJsonpbardouei.github.io"]||[]).push([[10],{88:function(i,e,t){"use strict";t.r(e);t(0),t(90);var a=t(1);e.default=function(i){var e=i.title;return Object(a.jsx)("div",{className:"header",children:e})}}}]);
+//# sourceMappingURL=10.2c972eb4.chunk.js.map
