@@ -1,0 +1,26 @@
+{
+    "certificates":[
+        {
+            "cardTitle": "iOS 16 Looking",
+            "url": "https://www.linkedin.com/learning/certificates/108569091fb3325ddd2794681a7c2b217e653a1074746b08c1690135ff92ecf1",
+            "media": {
+                "name": "certificateiOS16",
+                "source": {
+                  "url": "images/certificate/certificateiOS16.png"
+                },
+                "type": "IMAGE"
+              }
+        },
+        {
+            "cardTitle": "Software Architecture",
+            "url": "https://www.linkedin.com/learning/certificates/86c94227a70ef9ddda2fc7daf87fb2e841b91552a4d5816b408544791d8e0be5",
+            "media": {
+                "name": "certificateSoftwareArchitecture",
+                "source": {
+                  "url": "images/certificate/certificateSoftwareArchitecture.png"
+                },
+                "type": "IMAGE"
+              }
+        }
+    ]
+}
