@@ -1,34 +1,12 @@
 {
     "certificates":[
         {
-        "cardTitle": "Unit Testing Swift",
-        "url": "https://www.linkedin.com/learning/certificates/86c94227a70ef9ddda2fc7daf87fb2e841b91552a4d5816b408544791d8e0be5",
-        "media": {
-            "name": "certificateSoftwareArchitecture",
-            "source": {
-              "url": "images/certificate/certificateSoftwareArchitecture.png"
-            },
-            "type": "IMAGE"
-          }
-        },
-        {
-        "cardTitle": "Async/Await and Actors Concurrency in Swift",
-        "url": "https://www.linkedin.com/learning/certificates/86c94227a70ef9ddda2fc7daf87fb2e841b91552a4d5816b408544791d8e0be5",
-        "media": {
-            "name": "certificateSoftwareArchitecture",
-            "source": {
-              "url": "images/certificate/certificateSoftwareArchitecture.png"
-            },
-            "type": "IMAGE"
-          }
-        },
-        {
         "cardTitle": "Master Swift",
-        "url": "https://www.linkedin.com/learning/certificates/86c94227a70ef9ddda2fc7daf87fb2e841b91552a4d5816b408544791d8e0be5",
+        "url": "https://www.linkedin.com/learning/certificates/2c3c3d5cae11251cfd7700f196041defdada5093d5967e080b3b13cce20a69b6",
         "media": {
-            "name": "certificateSoftwareArchitecture",
+            "name": "certificateOfMasterSwift",
             "source": {
-              "url": "images/certificate/certificateSoftwareArchitecture.png"
+              "url": "images/certificate/certificateOfMasterSwift.png"
             },
             "type": "IMAGE"
           }
