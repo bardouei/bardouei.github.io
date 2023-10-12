@@ -1,5 +1,16 @@
 {
     "certificates":[
+      {
+        "cardTitle": "SOLID Programming Principles",
+        "url": "https://www.linkedin.com/learning/certificates/5a3da78bbbc9ebd71f0eedd93ce509c37962eede10acd5ed224b552d584c7031",
+        "media": {
+            "name": "certificateOfSOLIDPrinciples",
+            "source": {
+              "url": "images/certificate/certificateOfSOLIDPrinciples.png"
+            },
+            "type": "IMAGE"
+          }
+        },
         {
         "cardTitle": "Master Swift",
         "url": "https://www.linkedin.com/learning/certificates/2c3c3d5cae11251cfd7700f196041defdada5093d5967e080b3b13cce20a69b6",
