@@ -1,6 +1,17 @@
 {
     "certificates":[
         {
+        "cardTitle": "Building an App for All Apple Platforms",
+        "url": "https://www.linkedin.com/learning/certificates/0585f2e88426cd4fe3a84e7fa81c45b8181591a7260e2517e21cfcdd16ac4d68",
+        "media": {
+            "name": "buildingAllApplePlatforms",
+            "source": {
+              "url": "images/certificate/certificateOfCompletion_BuildingAllApplePlatforms.png"
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
         "cardTitle": "Unit Testing Swift",
         "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-80fd81be-dc28-47f8-8aed-80a18bc7d79e.pdf",
         "media": {
