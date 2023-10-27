@@ -4,7 +4,16 @@
             "image" : "images/projects/i2tocr-poster.png",
             "title": "I2TOCR",
             "bodyText": "- Implemented Project.\n - SetUp FireBase. \n - Implemented With TDD\n - Analticts, FireBase, CI/CD",
-
+            "links": [
+                {
+                    "text": "App Store",
+                    "href": ""
+                },
+                {
+                    "text": "Site",
+                    "href": "https://www.i2tocr.com"
+                }
+            ],
             "tags" : [
                 "Swift",
                 "FireBase",
@@ -26,7 +35,7 @@
                 },
                 {
                     "text": "Site",
-                    "href": "https://namava.ir"
+                    "href": "https://www.namava.ir"
                 }
             ],
             "tags" : [
