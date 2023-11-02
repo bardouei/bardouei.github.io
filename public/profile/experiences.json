@@ -1,17 +1,13 @@
 {
     "experience": [
         {
-            "title": "iOS Engineer",
+            "title": "Senior iOS Engineer",
             "subtitle": "I2TOCR",
             "workType": "Part-time / Iran",
             "workDescription": [
-                "Namava is the largest VOD platform in Iran, with over 6 million users.",
+                "OCR is a text processing system that works with artificial intelligence.",
                 "Collabraioned in led research, development, and implementation of modular software system design with TDD, modular structure, and clean architecture. Successfully increased productivity by 10% and decreased project bugs by 20% by hiring a great colleague for the iOS team.",
-                "Implemented Modular Player, Network, and Persistent with 10% Passed Test Coverage.",
-                "Managed tasks with Jira according to each sprint and conducted technical meetings to accelerate the development process by 15%.",
-                "Implemented CI/CD with Fastlane and GitLab Runner to improve the test process, which enhanced time efficiency by 10% in each sprint.",
-                "Injected JavaScript into web view to enable UI updates for frequently changing features.",
-                "Applied VAST and VMAP for mid-roll advertisements in the player."
+                "Implemented Modular Network, and Persistent with 90% Passed Test Coverage."
             ],
             "dateText": "Peresent – 07/2023"
         },
