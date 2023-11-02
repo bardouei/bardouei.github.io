@@ -1,17 +1,6 @@
 {
     "certificates":[
         {
-        "cardTitle": "4th International Conference in Electrical, Computer and Mechanical Engineering Of Iran",
-        "url": "",
-        "media": {
-            "name": "conferenceOfComputer",
-            "source": {
-              "url": ""
-            },
-            "type": "IMAGE"
-          }
-        },
-        {
         "cardTitle": "The ninth international Conference on Knowledge and Technology of Mechanical, Electrical Engineering and Computer Of Iran",
         "url": "",
         "media": {
