@@ -72,24 +72,49 @@
             ]
         },
         {
+            "title" : "",
+            "items": [
+                {
+                    "icon": "images/skills/numpay.png",
+                    "title": "Numpay"
+                },
+                {
+                    "icon": "images/skills/Tensorflow.png",
+                    "title": "Tensorflow"
+                },
+                {
+                    "icon": "images/skills/OpenCV.png",
+                    "title": " OpenCV"
+                }
+            ]
+        },
+        {
             "title": "Engineering",
             "items" : [
                 {
                     "icon": null,
-                    "title": "System Design"
+                    "title": "System Design,"
                 },
                 {
                     "icon": null,
-                    "title": "Clean Architecture"
+                    "title": "Clean Architecture,"
                 },
                 {
                     "icon": null,
-                    "title": "Test-driven development (TDD)"
+                    "title": "Test-driven development (TDD),"
                 },
                 {
                     "icon": null,
-                    "title": "Behavioural driven developments(BDD)"
-                } 
+                    "title": "Behavioural driven developments(BDD),"
+                }, 
+                {
+                    "icon": null,
+                    "title": "Image Processing,"
+                },
+                {
+                    "icon": null,
+                    "title": "Design and implementation of deep learning models"
+                }
             ]
         },
         {
