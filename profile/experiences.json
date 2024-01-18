@@ -1,6 +1,16 @@
 {
     "experience": [
         {
+            "title": "Python Developer",
+            "subtitle": "I2TOCR",
+            "workType": "Part-time / Iran",
+            "workDescription": [
+                "Image processing using TensorFlow, Keras, and OpenCV libraries",
+                "Create OCR Model with 96% Accuncry"
+            ],
+            "dateText": "Peresent – 07/2023"
+        },
+        {
             "title": "Senior iOS Engineer",
             "subtitle": "I2TOCR",
             "workType": "Part-time / Iran",
