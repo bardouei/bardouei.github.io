@@ -7,7 +7,9 @@
             "workDescription": [
                 "Create Dataset with roboflow",
                 "Image processing, train using Yolov8",
-                "Create OCR Model with 96% Accuncry"
+                "Create OCR Model with 90% Accuncry",
+                "Train HandWriting Model With Yolo with 90% Accuncry.",
+                "Use EasyOCR Framework for text extraction"
             ],
             "dateText": "Peresent – 07/2023"
         },
@@ -17,7 +19,7 @@
             "workType": "Part-time / Iran",
             "workDescription": [
                 "OCR is a text processing system that works with ML.",
-                "Collabraioned in led research, development, and implementation of modular software system design with TDD, modular structure, and clean architecture. Successfully increased productivity by 10% and decreased project bugs by 20% by hiring a great colleague for the iOS team.",
+                "Collabraioned in led research, development, and implementation of modular software system design with TDD, modular structure, and clean architecture.",
                 "Implemented Modular Network, and Persistent with 90% Passed Test Coverage."
             ],
             "dateText": "Peresent – 07/2023"
