@@ -85,6 +85,10 @@
                 {
                     "icon": "images/skills/OpenCV.png",
                     "title": " OpenCV"
+                },
+                {
+                    "icon": "images/skills/yolo.png",
+                    "title": " Yolo"
                 }
             ]
         },
