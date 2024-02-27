@@ -5,11 +5,9 @@
             "subtitle": "I2TOCR",
             "workType": "Part-time / Iran",
             "workDescription": [
-                "Create Dataset with roboflow",
-                "Image processing, train using Yolov8",
-                "Create OCR Model with 90% Accuncry",
-                "Train HandWriting Model With Yolo with 90% Accuncry.",
-                "Use EasyOCR Framework for text extraction"
+                "Establishing an Optical Character Recognition (OCR) model with a targeted accuracy of 90%. This comprehensive endeavor focuses on converting handwritten content from images into machine-readable text with high precision and efficiency.",
+                "Utilizing the advanced YOLOV8 algorithm for training a robust handwriting recognition model. YOLO facilitates accurate detection and localization of handwritten text within images, serving as a cornerstone for subsequent processing steps.",
+                "Integration of the easyOCR framework into the OCR pipeline for streamlined text extraction. Leveraging easyOCR’s pre-trained models and user-friendly interface, we ensure efficient and accurate extraction of handwritten text from images, enhancing the overall OCR process."
             ],
             "dateText": "Peresent – 07/2023"
         },
