@@ -1,43 +1,42 @@
 {
-    "logo" : {
-        "source": "images/logo.png",
-        "height" : 45,
-        "width" : 50
+  "logo": {
+    "source": "images/logo.png",
+    "height": 45,
+    "width": 50
+  },
+  "sections": [
+    {
+      "title": "Home",
+      "href": "/"
     },
-    "sections": [
-        {
-            "title": "Home",
-            "href": "/"
-        },
-        {
-            "title": "About",
-            "href": "/about"
-        },
-        {
-            "title": "Skills",
-            "href": "/skills"
-        },
-        {
-            "title": "Educations",
-            "href": "/educations"
-        },
-        {
-            "title": "Certificates",
-            "href": "/certificates"
-        },
-        {
-            "title": "Experiences",
-            "href": "/experiences"
-        },
-        {
-            "title": "Projects",
-            "href": "/projects"
-        },
-        {
-            "title": "Resume",
-            "href": "https://www.dropbox.com/scl/fi/kdh6eryzlieo91yiev451/Sadegh_Bardouei_Resume.pdf?rlkey=ghmnac77o2k2bme09b9geewpi&st=ex8vb478&dl=0",
-            "type": "link"
-        }
-    ]
-
+    {
+      "title": "About",
+      "href": "/about"
+    },
+    {
+      "title": "Skills",
+      "href": "/skills"
+    },
+    {
+      "title": "Educations",
+      "href": "/educations"
+    },
+    {
+      "title": "Certificates",
+      "href": "/certificates"
+    },
+    {
+      "title": "Experiences",
+      "href": "/experiences"
+    },
+    {
+      "title": "Projects",
+      "href": "/projects"
+    },
+    {
+      "title": "Resume",
+      "href": "https://www.dropbox.com/scl/fi/kdh6eryzlieo91yiev451/Sadegh_Bardouei_Resume.pdf?rlkey=ghmnac77o2k2bme09b9geewpi&st=wys21fgz&dl=0",
+      "type": "link"
+    }
+  ]
 }
