@@ -1,11 +1,23 @@
 {
   "experience": [
     {
+      "title": "iOS Engineer",
+      "subtitle": "Zahnärzte am Campus",
+      "workType": "Full-time / Germany",
+      "workDescription": [
+        "Developed an iOS application for managing documents.",
+        "Implementation and implementation of facial recognition with Python.",
+        "Doctor-patient communication and patient data sharing.",
+        "Upload photos and documents to send to the doctor and have the doctor comment on the files.",
+        "Preview of dental laminate with AI."
+      ],
+      "dateText": "10/2024 – 07/2025"
+    },
+    {
       "title": "Softwear Developer",
       "subtitle": "I2TOCR",
       "workType": "Part-time / Iran",
       "workDescription": [
-        "Senior iOS Engineer:",
         "OCR is a text processing system that works with ML.",
         "Collabraioned in led research, development, and implementation of modular software system design with TDD, modular structure, and clean architecture.",
         "Implemented Modular Network, and Persistent with 90% Passed Test Coverage.",
@@ -14,7 +26,7 @@
         "Utilizing the advanced YOLOV8 algorithm for training a robust handwriting recognition model. YOLO facilitates accurate detection and localization of handwritten text within images, serving as a cornerstone for subsequent processing steps.",
         "Integration of the easyOCR framework into the OCR pipeline for streamlined text extraction. Leveraging easyOCR’s pre-trained models and user-friendly interface, we ensure efficient and accurate extraction of handwritten text from images, enhancing the overall OCR process."
       ],
-      "dateText": "Peresent – 07/2023"
+      "dateText": "09/2024 – 08/2023"
     },
     {
       "title": "iOS Engineer",
