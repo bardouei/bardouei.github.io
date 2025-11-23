@@ -3067,7 +3067,7 @@ input, select, textarea {
 		}
 
 		.spotlight .image.main {
-			display: none;
+			display: block !important;
 		}
 
 			.spotlight .image.main img {
@@ -4208,51 +4208,132 @@ input, select, textarea {
 }
 
 .about-me-card {
-    background-color: #31333c !important; /* رنگ زمینه تیره */
+    background-color: #31333c !important;
     border-radius: 12px !important;
-    border: 1px solid #ff6600 !important; /* حاشیه نارنجی */
+    border: 1px solid #ff6600 !important;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4) !important;
     color: #fff !important;
-    padding: 3em !important;
+    padding: 2em !important;
     box-sizing: border-box !important;
-
-    /* تنظیمات پهنا و فاصله (پهن و چسبیده به راست) */
-    width: 100% !important; 
-    margin-left: auto !important; 
-    margin-right: 32px !important; 
-    
-    /* تنظیم چیدمان داخل کارت: عکس و متن کنار هم */
+    width: 100% !important;
+    margin: 0 auto !important;
     display: flex !important;
-    flex-direction: row !important; /* مهمترین خط برای کنار هم قرارگیری */
-    align-items: flex-start !important; /* ترازبندی از بالا */
-    text-align: left !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
 }
 
-/* اصلاح تصویر پروفایل */
 .profile-pic {
     flex-shrink: 0 !important;
-    /* جابجایی عکس به سمت راست (اگر صفحه فارسی باشد) */
-    order: 2 !important; 
-    margin-right: 0 !important;
-    margin-left: 3em !important; /* فاصله از متن */
-    margin-top: 0.5em !important; /* کمی فاصله از بالا برای ترازبندی بهتر */
+    order: 1 !important;
+    margin: 0 0 1.5em 0 !important;
 }
 
 .profile-pic img {
-    width: 150px !important;
-    height: 150px !important;
+    width: 120px !important;
+    height: 120px !important;
     border-radius: 50% !important;
     object-fit: cover !important;
     border: 4px solid #ff6600 !important;
 }
 
-/* اصلاح متن و عنوان */
 .about-me-text {
-    order: 1 !important; /* متن در سمت چپ قرار می‌گیرد */
-    flex-grow: 1 !important; /* متن فضای باقی‌مانده را پر می‌کند */
+    order: 2 !important;
+    width: 100% !important;
 }
 
 .about-me-text h3.major {
     color: #ff6600 !important;
-    font-size: 2.2em !important;
+    font-size: 1.8em !important;
+    margin-bottom: 0.5em !important;
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 768px) {
+    .about-me-card {
+        flex-direction: row !important;
+        align-items: flex-start !important;
+        text-align: left !important;
+        padding: 3em !important;
+        margin-left: auto !important;
+        margin-right: 32px !important;
+    }
+    
+    .profile-pic {
+        order: 2 !important;
+        margin: 0 0 0 3em !important;
+    }
+    
+    .profile-pic img {
+        width: 150px !important;
+        height: 150px !important;
+    }
+    
+    .about-me-text {
+        order: 1 !important;
+    }
+    
+    .about-me-text h3.major {
+        font-size: 2.2em !important;
+    }
+}
+
+/* Mobile Small Screens */
+@media screen and (max-width: 480px) {
+    .about-me-card {
+        padding: 1.5em !important;
+    }
+    
+    .profile-pic img {
+        width: 100px !important;
+        height: 100px !important;
+    }
+    
+    .about-me-text h3.major {
+        font-size: 1.5em !important;
+    }
+}
+
+.spotlight .image video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.spotlight .image {
+    position: relative;
+    overflow: hidden;
+}
+
+#three.spotlight .image.main {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  overflow: hidden !important;
+  z-index: 1 !important;
+}
+
+#three.spotlight .image.main video {
+  position: absolute !important;
+  top: 0; left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  display: block !important;
+  z-index: 1 !important;
+}
+
+#three.spotlight:before {
+  position: absolute !important;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2 !important;
+  pointer-events: none;
+}
+
+#three.spotlight .content {
+  position: relative;
+  z-index: 3 !important;
 }
