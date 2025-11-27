@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const roles = ["iOS Developer", "Python Developer", "Software Engineer", "Swift Lover", "Software architect"];
+    const roles = ["iOS Developer", "Python Developer", "Software Engineer", "Swift Engineer", "Software architect"];
     const targetElement = document.getElementById('role-typewriter');
     
     if (!targetElement) return;
